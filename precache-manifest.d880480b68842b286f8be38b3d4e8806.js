@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f9dde39ae5b06060338c1661d3dfe8b",
+    "revision": "0a01eaab9ac47bf887e3358027f2c1ff",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "4594f39aba1016fac24a",
-    "url": "/static/css/main.523f8ecf.chunk.css"
+    "revision": "54ee4e88aef492c329af",
+    "url": "/static/css/main.3319fb0b.chunk.css"
   },
   {
     "revision": "dc7d39ac8e750d483aa1",
@@ -32,20 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.4dc0ad6b.chunk.js"
   },
   {
-    "revision": "4594f39aba1016fac24a",
-    "url": "/static/js/main.bc9e9ad3.chunk.js"
+    "revision": "54ee4e88aef492c329af",
+    "url": "/static/js/main.2a89feef.chunk.js"
   },
   {
     "revision": "6ca4a07868fdea76030a",
     "url": "/static/js/runtime-main.c6ac4f07.js"
   },
   {
-    "revision": "21f233e19402cc4a66866a7f31191f0d",
-    "url": "/static/media/Agustina.21f233e1.woff"
+    "revision": "a3752c4bf72688b3db38d0911cf75f61",
+    "url": "/static/media/Agustina.a3752c4b.woff"
   },
   {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+    "revision": "847627bffd52aab57ce2e903f144e07f",
+    "url": "/static/media/Montserrat-Regular.847627bf.ttf"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
