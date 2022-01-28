@@ -7,7 +7,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
@@ -18,7 +18,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1iUSSTZSgr4mxldvrFDKENi7hwQ67fX78/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   github: "https://github.com/yuneunhye",
   linkedin: "https://www.linkedin.com/in/eunhye-lily-yun/",
   gmail: "anaisleh33@gmail.com",
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -41,7 +41,7 @@ const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as Firebase/ Airbridge "
     ),
-    emoji("⚡ Web server installation and maintenance")
+    emoji("⚡ Web server installation and maintenance"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -50,46 +50,46 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-fire",
     },
     {
       skillName: "linux",
-      fontAwesomeClassname: "fab fa-linux"
-    }
+      fontAwesomeClassname: "fab fa-linux",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -101,9 +101,9 @@ const educationInfo = {
       schoolName: "Hankuk University of Foreign Studies",
       logo: require("./assets/images/hufsLogo.gif"),
       subHeader: "Bachelor of Arts in Communication",
-      duration: "April 2012 - February 2017"
-    }
-  ]
+      duration: "April 2012 - February 2017",
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -113,18 +113,18 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "DevOps",
-      progressPercentage: "50%"
+      progressPercentage: "50%",
     },
     {
       Stack: "BackEnd",
-      progressPercentage: "30%"
-    }
+      progressPercentage: "30%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -140,8 +140,8 @@ const workExperiences = {
       desc: "Responsible for developing the driver app and the customer app of the moving platform business.",
       descBullets: [
         "Zimssa customer and driver app Development & Maintenance",
-        "Automating deployment using shell script and javascript"
-      ]
+        "Automating deployment using shell script and javascript",
+      ],
     },
     {
       role: "Front-End Developer & DevOps Developer",
@@ -151,10 +151,10 @@ const workExperiences = {
       desc: "Responsible for things-board (a real-time monitoring system) components development and project work.",
       descBullets: [
         "Things-board Development & Maintenance",
-        "Things-board installation and project work"
-      ]
-    }
-  ]
+        "Things-board installation and project work",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -162,40 +162,29 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Some toy projects you have worked on
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+const toyProjects = {
+  title: "Toy Project",
+  subtitle: "A PROJECT MADE FOR STUDY AND FUN",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/covidBoard.png"),
+      projectName: "COVID-Board",
+      projectDesc: "Provide coronavirus statistics by country",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          url: "https://lily-covid-board.herokuapp.com/",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -215,17 +204,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -235,9 +224,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+        },
+      ],
     },
 
     {
@@ -245,15 +234,15 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+          url: "https://pakistan-olx-1.firebaseapp.com/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -268,16 +257,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -293,10 +282,10 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -307,23 +296,23 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "If you want to offer front-end job that is suitable for me, please contact me.",
-  email_address: "anaisleh33@gmail.com"
+  email_address: "anaisleh33@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 export {
@@ -335,11 +324,11 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  toyProjects,
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };

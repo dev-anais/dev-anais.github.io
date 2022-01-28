@@ -1,7 +1,7 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { toyProjects } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
@@ -9,15 +9,15 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  const {isDark} = useContext(StyleContext);
-  if (!bigProjects.display) {
+  const { isDark } = useContext(StyleContext);
+  if (!toyProjects.display) {
     return null;
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{toyProjects.title}</h1>
           <p
             className={
               isDark
@@ -25,11 +25,11 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {toyProjects.subtitle}
           </p>
 
           <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
+            {toyProjects.projects.map((project, i) => {
               return (
                 <div
                   key={i}
