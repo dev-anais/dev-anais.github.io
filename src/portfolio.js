@@ -174,7 +174,7 @@ const toyProjects = {
     {
       image: require("./assets/images/covidBoard.png"),
       projectName: "COVID-Board",
-      projectDesc: "Provide coronavirus statistics by country",
+      projectDesc: "Provide corona virus statistics by country",
       footerLink: [
         {
           name: "Visit Website",
