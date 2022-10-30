@@ -43,11 +43,7 @@ export default function Profile() {
     openSource.showGithubProfile === "true" &&
     !(typeof prof === "string" || prof instanceof String)
   ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} />
-      </Suspense>
-    );
+    return <Contact />;
   } else {
     return <Contact />;
   }
