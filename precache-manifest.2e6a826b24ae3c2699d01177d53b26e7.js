@@ -1,51 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "907e3e9aa54cfdb7dbea49a8112182d3",
+    "revision": "b085b95e4900e259ead59b325fc07d75",
     "url": "/index.html"
   },
   {
-    "revision": "4145ad1becda8e8b094e",
-    "url": "/static/css/3.25727338.chunk.css"
+    "revision": "2192d01367ffb80ead74",
+    "url": "/static/css/3.bc85b1b3.chunk.css"
   },
   {
-    "revision": "d2373675bc0785a74514",
-    "url": "/static/css/4.a8329f31.chunk.css"
+    "revision": "3b10f66fc8693280695e",
+    "url": "/static/css/4.5c57288c.chunk.css"
   },
   {
-    "revision": "7941ad943a38433491c6",
-    "url": "/static/css/main.b93584fd.chunk.css"
+    "revision": "693d4d7dcfb35a7724ea",
+    "url": "/static/css/main.a227ce2f.chunk.css"
   },
   {
-    "revision": "97c4be6b9552601480dc",
-    "url": "/static/js/2.145da778.chunk.js"
+    "revision": "a5e52625730ea4f7e93c",
+    "url": "/static/js/2.e20107fc.chunk.js"
   },
   {
-    "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
-    "url": "/static/js/2.145da778.chunk.js.LICENSE.txt"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/static/js/2.e20107fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4145ad1becda8e8b094e",
-    "url": "/static/js/3.240ed1fc.chunk.js"
+    "revision": "2192d01367ffb80ead74",
+    "url": "/static/js/3.9e7ceac2.chunk.js"
   },
   {
-    "revision": "d2373675bc0785a74514",
-    "url": "/static/js/4.7827a81d.chunk.js"
+    "revision": "3b10f66fc8693280695e",
+    "url": "/static/js/4.598b98db.chunk.js"
   },
   {
-    "revision": "7941ad943a38433491c6",
-    "url": "/static/js/main.a9b68a10.chunk.js"
+    "revision": "693d4d7dcfb35a7724ea",
+    "url": "/static/js/main.5bcd29d0.chunk.js"
   },
   {
-    "revision": "1717e38ce9b8c95631cb",
-    "url": "/static/js/runtime-main.3de317d0.js"
+    "revision": "cf33ae4f384e12fc459c",
+    "url": "/static/js/runtime-main.9d462033.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
     "url": "/static/media/Agustina.a3752c4b.woff"
   },
   {
-    "revision": "847627bffd52aab57ce2e903f144e07f",
-    "url": "/static/media/Montserrat-Regular.847627bf.ttf"
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/static/media/contactMailDark.51cf7192.svg"
-  },
-  {
-    "revision": "fba4e1f051170731ae51e4013d8292ac",
-    "url": "/static/media/covidBoard.fba4e1f0.png"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
@@ -76,8 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
+    "revision": "829ad0a1deef4d7295adfecdf12df2be",
+    "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
     "url": "/static/media/pwaLogo.ee62cb58.webp"
+  },
+  {
+    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
+    "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
