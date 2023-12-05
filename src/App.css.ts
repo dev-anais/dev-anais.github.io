@@ -1,5 +1,5 @@
 import { style } from "@vanilla-extract/css";
 
 export const container = style({
-  backgroundColor: "blue",
+  backgroundColor: "#0A5C36",
 });
