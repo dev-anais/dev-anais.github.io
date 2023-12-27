@@ -40,7 +40,7 @@ const skillsSection = {
     emoji("⚡ Responsive SPA web/app development"),
     emoji("⚡ Build TV Application from scratch"),
     emoji(
-      "⚡ Logical thinking for user-friendly products by running ab tests and reading data."
+      "⚡ Logical thinking for user-friendly products by running ab tests and reading data"
     ),
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -123,13 +123,27 @@ const workExperiences = {
   experience: [
     {
       role: "Front-End Developer",
-      company: "Goodoc",
-      companylogo: require("./assets/images/goodocLogo.png"),
-      date: "May 2022 – Present",
+      company: "Moyo",
+      companylogo: require("./assets/images/moyoLogo.png"),
+      date: "Feb 2023 – Present",
       desc: "Responsible for developing a halthcare super application.",
       descBullets: [
-        "Goodoc web app Development",
-        "Developing an application for telehealth",
+        "Moyo web Development",
+        "Made SEO effective product",
+        "Made user-friendly products (50 abtest for 4 months)",
+        "Added facebook, tiktok, googleAds pixels",
+      ],
+    },
+    {
+      role: "Front-End Developer",
+      company: "Goodoc",
+      companylogo: require("./assets/images/goodocLogo.png"),
+      date: "May 2022 – Jan 2023",
+      desc: "Responsible for developing telemedicine TV web application.",
+      descBullets: [
+        "Developing an application for telemedicine from scratch",
+        "Added Codepush for goodoc mobile application",
+        "Develop design system components",
       ],
     },
     {
