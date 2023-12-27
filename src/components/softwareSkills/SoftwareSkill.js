@@ -1,8 +1,19 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import { skillsSection } from "../../portfolio";
+import { ReactComponent as Typescript } from "../../assets/images/typescript.svg";
+import { ReactComponent as NextJS } from "../../assets/images/nextjs.svg";
 
 export default function SoftwareSkill() {
+  const getIcon = (name) => {
+    if (name === "typescript") {
+      return <Typescript />;
+    }
+    if (name === "nextjs") {
+      return <NextJS />;
+    }
+  };
+
   return (
     <div>
       <div className="software-skills-main-div">
@@ -14,7 +25,13 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {skills.isManualIcon ? (
+                  <i className={skills.fontAwesomeClassname}>
+                    {getIcon(skills.skillName)}
+                  </i>
+                ) : (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );
