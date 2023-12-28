@@ -1,43 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7085efb28b17eda6601b6c7ba02490bb",
+    "revision": "b93e75daaa0af8f49796f20559de03b0",
     "url": "/index.html"
   },
   {
-    "revision": "e44eff5fea2421f6d2f0",
+    "revision": "e5d326bd7cf5f5f78535",
     "url": "/static/css/3.bc85b1b3.chunk.css"
   },
   {
-    "revision": "c2d4ec6f15ecc4e7096c",
-    "url": "/static/css/4.5c57288c.chunk.css"
+    "revision": "81632e4c4374bd873e64",
+    "url": "/static/css/main.69d9c0d0.chunk.css"
   },
   {
-    "revision": "5ecbbd778961b8d50bc2",
-    "url": "/static/css/main.601dde0b.chunk.css"
-  },
-  {
-    "revision": "c3ec24c062954a0741cc",
-    "url": "/static/js/2.b2b3eb21.chunk.js"
+    "revision": "593dc6f251a693443827",
+    "url": "/static/js/2.cdcf8cbb.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.b2b3eb21.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cdcf8cbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e44eff5fea2421f6d2f0",
-    "url": "/static/js/3.346d73bf.chunk.js"
+    "revision": "e5d326bd7cf5f5f78535",
+    "url": "/static/js/3.e5b7c0f0.chunk.js"
   },
   {
-    "revision": "c2d4ec6f15ecc4e7096c",
-    "url": "/static/js/4.c4b71b87.chunk.js"
+    "revision": "81632e4c4374bd873e64",
+    "url": "/static/js/main.567bdf94.chunk.js"
   },
   {
-    "revision": "5ecbbd778961b8d50bc2",
-    "url": "/static/js/main.dc6e2b63.chunk.js"
-  },
-  {
-    "revision": "09f65b64261fb35a09f4",
-    "url": "/static/js/runtime-main.c2a767f9.js"
+    "revision": "84c322f3502c4306c619",
+    "url": "/static/js/runtime-main.ecfc492e.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
@@ -86,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
-  },
-  {
-    "revision": "3440939881da8339d1597e8d77cdf850",
-    "url": "/static/media/skill.34409398.svg"
   },
   {
     "revision": "2f66b1efe64346ef1f31bef62a9db651",
