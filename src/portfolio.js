@@ -14,7 +14,7 @@ const greeting = {
   username: "EunHye Yun",
   title: "Hello, I'm EunHye",
   subTitle: emoji(
-    " A front-end developer with over 5 years' experience and zest for making products users really want. I have an experience of building Web and Mobile applications with JavaScript / React. And I believe programming can make life easier."
+    " A front-end developer with over 5 years' experience and zest for making products users really want. I have an experience of building Web and Mobile applications with TypeScript / React / Next. And I believe programming can make life easier."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ojMREH2n-mJFivnIeNQzV7pyzWVLENOf/view?usp=sharing",
@@ -35,7 +35,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Skills",
   subTitle:
-    "Front-end developer who loves to solve problems using programming skills",
+    "Frontend developer who loves to solve problems using programming skills",
   skills: [
     emoji("⚡ Responsive SPA web/app development"),
     emoji("⚡ Build TV Application from scratch"),
@@ -126,11 +126,11 @@ const workExperiences = {
       company: "Moyo",
       companylogo: require("./assets/images/moyoLogo.png"),
       date: "Feb 2023 – Present",
-      desc: "Responsible for developing a halthcare super application.",
+      desc: "Responsible for developing mobile plans comparison website and application.",
       descBullets: [
         "Moyo web Development",
         "Made SEO effective product",
-        "Made user-friendly products (50 abtest for 4 months)",
+        "Made user-friendly products (more than 100 ab tests for 10 months)",
         "Added facebook, tiktok, googleAds pixels",
       ],
     },
@@ -142,7 +142,7 @@ const workExperiences = {
       desc: "Responsible for developing telemedicine TV web application.",
       descBullets: [
         "Developing an application for telemedicine from scratch",
-        "Added Codepush for goodoc mobile application",
+        "Added Codepush to goodoc mobile application",
         "Develop design system components",
       ],
     },
