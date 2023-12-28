@@ -17,7 +17,7 @@ const greeting = {
     " A front-end developer with over 5 years' experience and zest for making products users really want. I have an experience of building Web and Mobile applications with TypeScript / React / Next. And I believe programming can make life easier."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ojMREH2n-mJFivnIeNQzV7pyzWVLENOf/view?usp=sharing",
+    "https://drive.google.com/file/d/1cHyjkp5f1TD4HF6ille0XMo-QI-2OyxN/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
